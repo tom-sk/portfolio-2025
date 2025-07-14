@@ -1,5 +1,6 @@
 export default {
-  content: [
+    darkMode: 'class',
+    content: [
         './resources/**/*.antlers.html',
         './resources/**/*.blade.php',
         './content/**/*.md'
