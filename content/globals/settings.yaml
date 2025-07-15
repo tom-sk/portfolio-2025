@@ -5,11 +5,11 @@ data:
     -
       id: YStG1Qdo
       name: Github
-      url: 'https://github.com/statamic/starter-kit-cool-writings'
+      url: 'https://github.com/tom-sk'
       icon: site/social-icons/github.svg
     -
       id: s6wjiJJi
       name: Email
-      url: 'mailto:jack@statamic.com'
+      url: 'mailto:thomasscullyking@hotmail.com'
       icon: site/social-icons/email.svg
   profile_image: site/profile-image.png
