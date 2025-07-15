@@ -1,8 +1,10 @@
 ---
-title: Home
 id: home
-template: home
 blueprint: home
-subtitle: I see pride. I see power.
+title: Home
+template: home
+subtitle: 'Portfolio 2025'
+updated_by: b4add40a-18ff-4b4b-aa71-5593c9134207
+updated_at: 1752507438
 ---
-I see a bad-ass mother who don't take no crap off of nobody.
+Welcome to my portfolio

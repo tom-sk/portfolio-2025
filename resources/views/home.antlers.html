@@ -1,4 +1,4 @@
-<div class="max-w-5xl mx-auto relative py-16 lg:pt-12 lg:pb-32">
+<div class="max-w-5xl mx-auto relative py-16 lg:pt-12 lg:pb-12">
     <article class="content">
         {{ settings:profile_image }}
             <img  alt="Profile Image" fetchpriority="high" width="512" height="512"
@@ -26,8 +26,8 @@
                         {{ title | widont }}
                     </a>
                 </h2>
-                <p class="text-gray-600">
-                    <span class="text-gray-800 text-sm uppercase tracking-widest font-medium">{{ date }}</span> &mdash;
+                <p class="text-zinc-600 dark:text-zinc-400">
+                    <span class="text-zinc-600 dark:text-zinc-400 text-sm uppercase tracking-widest font-medium">{{ date }}</span> &mdash;
                     {{ excerpt | widont ?? content | strip_tags | safe_truncate(150, '...') }}
                 </p>
             </div>

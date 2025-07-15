@@ -1,0 +1,30 @@
+<div class="max-w-5xl mx-auto relative mt-16 content">
+    <article class="py-32 mx-auto content">
+        <h1>{{ title }}</h1>
+
+        <div class="grid grid-cols-3 items-start gap-4">
+            <div class="content col-span-2">
+                {{ content | widont }}
+            </div>
+            <div class=" flex flex-col">
+                <div class="w-full">
+                    {{ settings:profile_image }}
+                    <img  alt="Profile Image" fetchpriority="high" width="512" height="512"
+                          decoding="async" data-nimg="1"
+                          class="w-full mt-0 rounded"
+                          style="color: transparent;" sizes="4rem"
+                          src="{{ url }}">
+                    {{ /settings:profile_image }}
+                </div>
+
+                <div class="flex flex-col gap-4">
+                    {{ settings:social }}
+                    <a href="{{ url }}" class="ml-4 flex gap-2 no-underline" aria-label="{{ name }}" rel="noopener">
+                        {{ svg :src="icon" class="h-6 w-6 hover:text-teal" }} {{name}}
+                    </a>
+                    {{ /settings:social }}
+                </div>
+            </div>
+        </div>
+    </article>
+</div>

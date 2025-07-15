@@ -1,6 +1,16 @@
 <!doctype html>
-<html lang="{{ site:short_locale }}">
-    <head>
+<html lang="{{ site:short_locale }}"  x-data="{ showMobileNav: false, dark: false }">
+<body  :class="{ 'dark': dark }">
+
+<div class="bg-zinc-50 dark:bg-black font-sans leading-normal text-grey-800 dark:text-white px-4 sm:px-10 ">
+    <div class="bg-white dark:bg-zinc-800/90 px-4">
+        {{ partial:nav }}
+        {{ template_content }}
+        {{ partial:footer }}
+    </div>
+</div>
+</body>
+<head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,9 +19,4 @@
         <meta name="theme-color" content="00908F">
         {{ vite src="resources/js/site.js|resources/css/site.css" }}
     </head>
-    <body class="bg-white font-sans leading-normal text-grey-800 px-4 sm:px-10" :class="{ 'dark': dark }" x-data="{ showMobileNav: false, dark: false }">
-        {{ partial:nav }}
-        {{ template_content }}
-        {{ partial:footer }}
-    </body>
 </html>

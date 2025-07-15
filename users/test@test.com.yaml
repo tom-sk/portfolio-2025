@@ -2,3 +2,7 @@ name: tom
 super: true
 id: b4add40a-18ff-4b4b-aa71-5593c9134207
 password_hash: $2y$12$eBCf9p3L1qMmo78SDzmM5uTFYw/Z7xe4smgAR9nEIwyfogjsozdZO
+preferences:
+  collections:
+    projects:
+      after_save: continue_editing

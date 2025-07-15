@@ -1,6 +1,11 @@
 <div class="max-w-5xl mx-auto relative mt-16 content">
     <article class="py-32 mx-auto content">
         <h1>{{ title }}</h1>
-        {{ content | widont }}
+
+        <div class="max-w-2xl mr-auto mb-32">
+            {{ content | widont }}
+        </div>
+
+        {{ partial:portfolio_grid }}
     </article>
 </div>
