@@ -6,3 +6,5 @@ preferences:
   collections:
     projects:
       after_save: continue_editing
+    articles:
+      view: list

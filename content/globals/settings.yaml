@@ -1,15 +1,1 @@
 title: Settings
-data:
-  site_name: 'TSK Portfolio 2025'
-  social:
-    -
-      id: YStG1Qdo
-      name: Github
-      url: 'https://github.com/tom-sk'
-      icon: site/social-icons/github.svg
-    -
-      id: s6wjiJJi
-      name: Email
-      url: 'mailto:thomasscullyking@hotmail.com'
-      icon: site/social-icons/email.svg
-  profile_image: site/profile-image.png
