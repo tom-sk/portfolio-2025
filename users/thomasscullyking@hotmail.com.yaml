@@ -8,3 +8,5 @@ preferences:
       after_save: continue_editing
     articles:
       view: list
+    pages:
+      view: tree
